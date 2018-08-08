@@ -19,11 +19,11 @@ public class DiffDemo {
 //
 //	}
 	
-	public String getDiff(String str3,String str2) throws Exception {
-		if(StringUtils.isEmpty(str3)||StringUtils.isEmpty(str2)){
+	public String getDiff(String str3,String str4) throws Exception {
+		if(StringUtils.isEmpty(str3)||StringUtils.isEmpty(str4)){
 			throw new Exception("Empty or Null String is not allowed.");
 		}
-		return StringUtils.difference(str3, str2);
+		return StringUtils.difference(str3, str4);
 	}
 	
 	
