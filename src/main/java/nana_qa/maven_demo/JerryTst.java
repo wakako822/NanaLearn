@@ -4,7 +4,7 @@ package nana_qa.maven_demo;
  * Hello world!
  *
  */
-public class App 
+public class JerryTst 
 {
     public static void main( String[] args )
     {
