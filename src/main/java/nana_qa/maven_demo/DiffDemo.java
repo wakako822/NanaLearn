@@ -23,6 +23,7 @@ public class DiffDemo {
 		if(StringUtils.isEmpty(str3)||StringUtils.isEmpty(str4)){
 			throw new Exception("Empty or Null String is not allowed.");
 		}
+		System.out.println("hihi");
 		return StringUtils.difference(str3, str4);
 	}
 	
